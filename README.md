@@ -169,7 +169,7 @@
  			print("-------------------------------")
     ```
     
- - Sample output:
+ - Sample output :
  
  ![Snap of Final output](https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/data_readme/sample_op.png)
    
