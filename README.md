@@ -100,32 +100,33 @@
   - Logistic Regression is used when the dependent variable( target ) is categorical.
 
     - logistic regressions are only binary classifiers, meaning they cannot handle target vectors with more than two classes. However, there are clever extensions to logistic regression to do just that. In one-vs-rest logistic regression (OVR) a separate model is trained for each class predicted whether an observation is that class or not (thus making it a binary classification problem). It assumes that each classification problem (e.g. class 0 or not) is independent.
-    ![Snap of LR 80-20](https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/data_readme/LR80_20.png)
+    
+    <img src="https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/data_readme/LR80_20.png" width="50%" height="60%" />
+    
    - SVMs try to find a separating line(or hyperplane) between data of two classes. SVM is an algorithm that takes the data as an input and outputs a line that separates those classes if possible.
 
      - According to the SVM algorithm we find the points closest to the line from both the classes.These points are called support vectors. Now, we compute the distance between the line and the support vectors. This distance is called the margin. Our goal is to maximize the margin. The hyperplane for which the margin is maximum is the optimal hyperplane.Thus SVM tries to make a decision boundary in such a way that the separation between the two classes(that street) is as wide as possible.The linear, polynomial and RBF or Gaussian kernel are simply different in case of making the hyperplane decision boundary between the classes. The kernel functions are used to map the original dataset (linear/nonlinear ) into a higher dimensional space with view to making it linear dataset.Usually linear and polynomial kernels are less time consuming and provides less accuracy than the rbf or Gaussian kernels.
 
 **SVM - Linear**
-
-![Snap of SVM L 80-20](https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/data_readme/svm80_20.png)
+<img src="https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/data_readme/svm80_20.png" width="50%" height="60%" />
 
 **SVM - RBF**
 
-![Snap of SVM RBF 80-20](https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/data_readme/svm80_20.png)
+<img src="https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/data_readme/svm_rbf80_20.png" width="50%" height="60%" />
 
 **2. Next a 85-15% split was performed on the dataset**
 
 **Logistic Regression**
 
-![Snap of LR 85-15](https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/data_readme/LR85_15.png)
+<img src="https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/data_readme/LR85_15.png" width="50%" height="60%" />
 
 **SVM - Linear**
 
-![Snap of SVM L 85-15](https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/data_readme/svm85_15.png)
+<img src="https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/data_readme/svm85_15.png" width="50%" height="60%" />
 
 **SVM - RBF**
 
-![Snap of SVM RBF 85-15](https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/data_readme/svm85_15.png)
+<img src="https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/data_readme/svm_rbf85_15.png" width="50%" height="60%" />
 
 - Thus we conclude that **highest accuracy** was obtained during a **85-15%** split while using a **svm with rbf as the kernel function**.
 
@@ -171,8 +172,9 @@
  ![Snap of Final output](https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/data_readme/sample_op.png)
    
 Team Members - 
+- [Sirshendu Ganguly](https://www.linkedin.com/in/sirshendu-ganguly/)  [![Github](https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/data_readme/github.png)](https://github.com/Sirsho1997)
 - [Aniket Patra](https://www.linkedin.com/in/aniket-patra/)  [![Github](https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/data_readme/github.png)](https://github.com/aniket-patra)
 - [Arnanta Chatterjee](https://www.linkedin.com/in/arnanta-chatterjee-a60684179/)  [![Github](https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/data_readme/github.png)](https://github.com/arnanta)
-- [Sirshendu Ganguly](https://www.linkedin.com/in/sirshendu-ganguly/)  [![Github](https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/data_readme/github.png)](https://github.com/Sirsho1997)
+
 
 
