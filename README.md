@@ -108,6 +108,8 @@
      - According to the SVM algorithm we find the points closest to the line from both the classes.These points are called support vectors. Now, we compute the distance between the line and the support vectors. This distance is called the margin. Our goal is to maximize the margin. The hyperplane for which the margin is maximum is the optimal hyperplane.Thus SVM tries to make a decision boundary in such a way that the separation between the two classes(that street) is as wide as possible.The linear, polynomial and RBF or Gaussian kernel are simply different in case of making the hyperplane decision boundary between the classes. The kernel functions are used to map the original dataset (linear/nonlinear ) into a higher dimensional space with view to making it linear dataset.Usually linear and polynomial kernels are less time consuming and provides less accuracy than the rbf or Gaussian kernels.
 
 **SVM - Linear**
+
+
 <img src="https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/data_readme/svm80_20.png" width="50%" height="60%" />
 
 **SVM - RBF**
