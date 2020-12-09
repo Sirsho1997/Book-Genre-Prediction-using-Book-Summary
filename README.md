@@ -12,7 +12,7 @@ IPython Notebook has been used for this project.
    
    - The goal of this repository is to provide an example for performing Text Classification using the techniques of Natural Language Processing.
    
-   - The highest accuracy was obtained during a 85-15% split while using a svm with rbf as the kernel function. The highest accuracy is 79.55%.
+   - The highest accuracy was obtained during a 85-15% split while using a SVM with Radial Basis Function as the kernel function. The highest accuracy is 79.55%.
    
    - Required Libraries
        - [Pandas](https://pandas.pydata.org/)
@@ -47,25 +47,41 @@ IPython Notebook has been used for this project.
 <img src="https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/image/summaryvis.png" />
 
 - Removing stop words.
-  - Another part of data cleaning is the removal of stop words – that is, common words like “the”, “a”, “an”. They are assumed to have no consequence over the classification process.
+
+  Another part of data cleaning is the removal of stop words – that is, common words like “the”, “a”, “an”. They are assumed to have no consequence over the classification process.
  
  <img src="https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/image/summarystop.png" />
  
  
 - Lemmatization
-  We incorporated lemmatization on book "summary" where the different versions of the same word are put into one –      for example, “do/doing/does/did”, “go/going/goes/went” – so as to not let the algorithm treat similar words as different, and hence, make the analysis stronger.
+
+  In lemmatization, the different versions of the same word are put into one – for example, “do/doing/does/did”, “go/going/goes/went” – so as to not let the algorithm treat similar words as different, and hence, make the analysis stronger.
   
  <img src="https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/image/lem.png" />
  
   
  -  Stemming
-   Stemming is the process of producing morphological variants of the root/base word. Stemming reduces the words “chocolates”, “chocolatey”, “choco” to the root word, “chocolate” and “retrieval”, “retrieved”, “retrieves” reduce to the stem “retrieve”. 
+ 
+   Stemming is the process of producing morphological variants of the root/base word. Stemming reduces the words “chocolates”, “chocolatey”, “choco” to the root word, “chocolate” and “retrieval”, “retrieved”, “retrieves” reduce to the stem “retrieve”.
    
  <img src="https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/image/stem.png" />
  
  - Visualizing the words in book's summary after successfully pre-processing.
  
   <img src="https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/image/visa.png" />
+  
+ - Finally tf-idf is performed on the data set. This numerical statistic reflects the fact that how a word is important in a document. 
+ 
+ 	Tf_Idf(t,d,D) = tf(t,d).idf(t,D)
+	
+	Where,
+		Tf(t,d) = ft,d
+		Idf(t,D) = log(N/{d∈D : t ∈ d})
+	With,
+	
+ 		ft,d: Frequency of the term t in document d.
+		N: Total number of documents.
+		{d∈D : t ∈ d}: Number of documents where the term t appears.
  
 
 ##### Models
