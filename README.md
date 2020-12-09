@@ -7,7 +7,7 @@ IPython Notebook has been used for this project.
    
    - The dataset that have been used here is a subset of the CMU Book Summary Dataset available at [CMU Book Summary Dataset](http://www.cs.cmu.edu/~dbamman/booksummaries.html "CMU Book Summary Dataset"). Dataset was unevenly distributed at the beginning. After days of data wrangling we could attain some uniformity in the dataset. The processed dataset has been uploaded as BookDataSet.csv , which has 6 main genres - "Crime Fiction", "Fanstasy", "Historical novel", "Horror", "Science Fiction", "Thriller". 
    
- ![Snap of dataset](https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/data_readme/dataset_snap.png)
+ ![Snap of dataset](https://github.com/Sirsho1997/Book-Genre-Prediction-using-Book-Summary/blob/master/image/dataset_snap.png)
  
    
    - The goal of this repository is to provide an example for performing Text Classification using the techniques of Natural Language Processing.
